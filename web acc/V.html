@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồ Ăn Kiểu Âu</title>
+    <body background="https://img.pikbest.com/wp/202344/natural-oak-high-resolution-photo-of-weathered-texture-on-black-wood_9933156.jpg!w700wp"></body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            background-color: #f8f8f8;
+            padding: 10px 20px;
+        }
+        .navbar .logo {
+            color: red;
+            font-size: 24px;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            flex-grow: 1;
+        }
+        .navbar ul li {
+            margin-right: 20px;
+        }
+        .navbar ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            padding: 5px 10px;
+        }
+        .navbar ul li a.active {
+            border-bottom: 2px solid red;
+        }
+        .search-bar {
+            display: flex;
+            align-items: center;
+        }
+        .search-bar input[type="text"] {
+            padding: 5px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .search-bar button {
+            padding: 5px 10px;
+            font-size: 16px;
+            border: none;
+            background-color: red;
+            color: white;
+            border-radius: 4px;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+        .account {
+    flex: 1 1 calc(25% - 10px); 
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.price {
+            color:#28a745;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .buy-button {
+            background: #dd220d;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .buy-button:hover {
+            background: #ddd;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background:#ddd;
+            color: #fff;
+        }
+        .account-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    margin-bottom: 20px; 
+}
+.account {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 0 2px 5px #e74c3c;
+            flex: 1 1 calc(25% - 10px); /* Điều chỉnh để có 3 ô trong 1 hàng */
+            box-sizing: border-box;
+            min-height: 300px;
+        }
+
+        {
+            box-sizing:border-box;
+        }
+        html,
+        body {
+            width: 100%;
+            margin: 0;
+            padding:0 ;
+        }
+        .hover-effect:hover {
+            transform: scale(1.1);
+        }
+        .text {
+    color: #333;
+    transition: color 0.3s;
+}
+
+.text:hover {
+    color: #e74c3c;
+}
+.button {
+	margin-botttom:20px;
+	background-color: pink;
+	border: 1;
+	width: 200px;
+	padding:14px 0  14px 0;
+	border-radius: 70px;
+	font-family: "Futura", cursive;
+	font-size: 15px;
+	transition-duration: 0.4s;
+	-webkit-box-shadow: 0px 11px 22px -9px #000000;
+	box-shadow: 0px 11px 22px -9px#000000;
+	cursor: pointer;
+}
+.button:hover {
+	color: pink;
+	background-color: white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+nav ul li a:hover {
+    color: #28a745; 
+                    }
+{
+            box-sizing:border-box;
+        }
+
+
+
+.favorite-button {
+    background-color: #ff4081; 
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.favorite-button:hover {
+    background-color: #e91e63; /* Màu hồng đậm hơn khi hover */
+}
+h2 {
+    color:#ccc ;
+}
+p {
+    color: #ddd;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        
+        <ul>
+            <nav class="navbar">
+                <a style="margin-top: -30px;" href="index.html" onclick="window.location.reload();">
+                    <img class="logo" src="https://cdn.pixabay.com/animation/2023/07/08/11/26/11-26-17-598_512.gif" alt="logo"style="max-height: 70px;">
+                </a>
+        <li><a href="V.html">Đồ Ăn</a></li>
+        <li><a href="#accounts">Đồ Uống</a></li>
+        <li><a href="">Gia Vị</a></li>
+        <li><a href="chatgpteo.html">Hỗ Trợ</a></li>
+        <li><a href="Untitled-1.html">Đăng Nhập</a></li>
+
+        </ul>
+        <div class="search-bar">
+            <input type="text" placeholder="Tìm kiếm...">
+            <button type="submit">Tìm</button>
+        </div>
+    </div>
+        <h2>Những Món Nên Thử</h2>
+    <section id="accounts">
+        <div class="account-container">
+            <div class="account">
+                <img src="https://hoangviettravel.vn/wp-content/uploads/2020/02/cac-mon-an-chinh-cua-nguoi-chau-au-05-min.jpg" width="300" height="200">
+                <h3>Mì Ý Spargeti</h3>
+                
+                <span class="price">300,000</span>
+                <p><button class="buy-button" onclick="window.location.href='A.html'">Chi Tiết</button></p>
+                <button class="favorite-button" onclick="addToFavorites()">Yêu Thích</button>
+            </div>
+            <div class="account">
+            <img src="https://vfs.vn/wp-content/uploads/2021/03/nhung-dac-trung-cua-mon-an-am-thuc-chau-au-top-10-mon-an-ngon-noi-tieng-chau-au-6.jpg" width="300" height="200">
+            <h3>Bò Bít Tết</h3>
+            
+            <span class="price">800,000</span>
+            <p><button class="buy-button" onclick="window.location.href='Untitled-8.html'">Chi Tiết</button></p>
+            <button class="favorite-button" onclick="addToFavorites()">Yêu Thích</button>
+        </div>
+        <div class="account">
+            <img src="https://transviet.com.vn/images/CNDL2019/Chau%20Au/Mon%20an%20truyen%20thong/CNDL_Chau%20Au_mon%20an%20truyen%20thong_transviet_2.png" width="300" height="200">
+            <h3>Xúc Xích Đức</h3>
+            
+            <span class="price">250,000</span>
+            <p><button class="buy-button" onclick="window.location.href='Untitled-8.html'">Chi Tiết</button></p>
+            <button class="favorite-button" onclick="addToFavorites()">Yêu Thích</button>
+        </div>
+        <div class="account">
+            <img src="https://transviet.com.vn/images/CNDL2019/Chau%20Au/Mon%20an%20truyen%20thong/CNDL_Chau%20Au_mon%20an%20truyen%20thong_transviet_5.png" width="300" height="200">
+            <h3>Broodje Haring</h3>
+            
+            <span class="price">300,000</span>
+            <p><button class="buy-button" onclick="window.location.href='Untitled-8.html'">Chi Tiết</button></p>
+            <button class="favorite-button" onclick="addToFavorites()">Yêu Thích</button>
+        </div>
+        <div class="account">
+            <img src="https://media.cooky.vn/images/blog-2016/top-10-mon-an-ngon-noi-tieng-chau-au%203.jpg" width="300" height="200">
+            <h3>Pizza</h3>
+            
+            <span class="price">200,000</span>
+            <p><button class="buy-button" onclick="window.location.href='Untitled-8.html'">Chi Tiết</button></p>
+            <button class="favorite-button" onclick="addToFavorites()">Yêu Thích</button>
+        </div>
+        <div class="account">
+            <img src="https://transviet.com.vn/images/CNDL2019/Chau%20Au/Mon%20an%20truyen%20thong/CNDL_Chau%20Au_mon%20an%20truyen%20thong_transviet_9.png" width="300" height="200">
+            <h3>Bánh Kếp</h3>
+            
+            <span class="price">300,000</span>
+            <p><button class="buy-button" onclick="window.location.href='Untitled-8.html'">Chi Tiết</button></p>
+            <button class="favorite-button" onclick="addToFavorites()">Yêu Thích</button>
+        </div>
+        </section>
+        <div class="account-container">
+        <div class="account">
+            <img src="https://transviet.com.vn/images/CNDL2019/Chau%20Au/Mon%20an%20truyen%20thong/CNDL_Chau%20Au_mon%20an%20truyen%20thong_transviet_9.png" width="300" height="200">
+            <h3>Bánh Kếp</h3>
+            
+            <span class="price">300,000</span>
+            <p><button class="buy-button" onclick="window.location.href='Untitled-8.html'">Chi Tiết</button></p>
+            <button class="favorite-button" onclick="addToFavorites()">Yêu Thích</button>
+        </div>
+        </section>
+        <div class="account">
+            <img src="https://transviet.com.vn/images/CNDL2019/Chau%20Au/Mon%20an%20truyen%20thong/CNDL_Chau%20Au_mon%20an%20truyen%20thong_transviet_9.png" width="300" height="200">
+            <h3>Bánh Kếp</h3>
+            
+            <span class="price">300,000</span>
+            <p><button class="buy-button" onclick="window.location.href='Untitled-8.html'">Chi Tiết</button></p>
+            <button class="favorite-button" onclick="addToFavorites()">Yêu Thích</button>
+        </div>
+        </section>
+        <div class="account">
+            <img src="https://transviet.com.vn/images/CNDL2019/Chau%20Au/Mon%20an%20truyen%20thong/CNDL_Chau%20Au_mon%20an%20truyen%20thong_transviet_9.png" width="300" height="200">
+            <h3>Bánh Kếp</h3>
+            
+            <span class="price">300,000</span>
+            <p><button class="buy-button" onclick="window.location.href='Untitled-8.html'">Chi Tiết</button></p>
+            <button class="favorite-button" onclick="addToFavorites()">Yêu Thích</button>
+        </div>
+        </section>
+        <div class="account">
+            <img src="https://transviet.com.vn/images/CNDL2019/Chau%20Au/Mon%20an%20truyen%20thong/CNDL_Chau%20Au_mon%20an%20truyen%20thong_transviet_9.png" width="300" height="200">
+            <h3>Bánh Kếp</h3>
+            
+            <span class="price">300,000</span>
+            <p><button class="buy-button" onclick="window.location.href='Untitled-8.html'">Chi Tiết</button></p>
+            <button class="favorite-button" onclick="addToFavorites()">Yêu Thích</button>
+        </div>
+        <div class="account">
+            <img src="https://transviet.com.vn/images/CNDL2019/Chau%20Au/Mon%20an%20truyen%20thong/CNDL_Chau%20Au_mon%20an%20truyen%20thong_transviet_9.png" width="300" height="200">
+            <h3>Bánh Kếp</h3>
+            
+            <span class="price">300,000</span>
+            <p><button class="buy-button" onclick="window.location.href='Untitled-8.html'">Chi Tiết</button></p>
+            <button class="favorite-button" onclick="addToFavorites()">Yêu Thích</button>
+        </div>
+        <div class="account">
+            <img src="https://transviet.com.vn/images/CNDL2019/Chau%20Au/Mon%20an%20truyen%20thong/CNDL_Chau%20Au_mon%20an%20truyen%20thong_transviet_9.png" width="300" height="200">
+            <h3>Bánh Kếp</h3>
+            
+            <span class="price">300,000</span>
+            <p><button class="buy-button" onclick="window.location.href='Untitled-8.html'">Chi Tiết</button></p>
+            <button class="favorite-button" onclick="addToFavorites()">Yêu Thích</button>
+        </div>
+    </div>
+        </section>
+    <section id="contact">
+        <h2>Liên Hệ</h2>
+        <p>Nếu bạn có bất kỳ câu hỏi nào, hãy liên hệ với chúng tôi qua email: support@example.com</p>
+        <p>Hoặc qua sdt 012345678</p>
+    </section>
+    <script>
+        function addToFavorites() {
+            alert('Đã thêm vào danh sách yêu thích!');
+        }
+    </script>
+     <script src="z.js"></script>
+</body>
+</html>
